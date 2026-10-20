@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Permite utilizar tildes, ñ y caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Indica el autor de la página -->
+    <meta name="author" content="Marcos">
+
+    <!-- Palabras clave relacionadas con la página -->
+    <meta name="keywords" content="Restaurante, Reserva, Mesa">
+
+    <!-- Describe el contenido de la página -->
+    <meta name="description" content="Formulario para reservar una mesa en el restaurante">
+
+    <!-- Título de la pestaña del navegador -->
+    <title>Reserva de Restaurante</title>
+
+    <!-- Icon-->
+     <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecera con el título del formulario -->
+    <header>
+        <h1>Haz una reserva</h1>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+
+        <!-- Formulario para solicitar una reserva -->
+        <form action="#" method="post">
+
+            <!-- Campo para introducir el nombre -->
+            <input type="text" name="nombre" placeholder="Su nombre" size="30" required>
+
+            <!-- Campo para indicar el número de clientes -->
+            <input type="number" name="clientes" placeholder="Número de clientes" min="1" required>
+
+            <br>
+            <br>
+
+            <!-- Campo para introducir el correo electrónico -->
+            <input type="email" name="correo" placeholder="Su correo electrónico" size="30" required>
+
+            <!-- Campo para introducir el teléfono -->
+            <input type="tel" name="telefono" placeholder="Su teléfono" size="30" required>
+
+            <br>
+            <br>
+
+            <!-- Campo para seleccionar la fecha de la reserva -->
+            <input type="date" name="fecha" aria-label="Fecha de la reserva" required>
+
+            <!-- Campo para seleccionar la hora de la reserva -->
+            <input type="time" name="hora" aria-label="Hora de la reserva" required>
+
+            <br>
+            <br>
+
+            <!-- Campo para escribir un mensaje adicional -->
+            <textarea name="mensaje" rows="2" cols="65" placeholder="Su mensaje"></textarea>
+
+            <br>
+            <br>
+
+            <!-- Botón para enviar la solicitud de reserva -->
+            <button type="submit">SOLICITAR RESERVA</button>
+
+        </form>
+
+    </main>
+    <!-- Zona navegación -->
+    <nav>
+        <a href="./Restaurante.html">Volver al Restaurante</a>
+    </nav>
+
+    <!-- Pie de página -->
+    <footer>
+        mmoralesvico55@gmail.com
+    </footer>
+
+</body>
+</html>
