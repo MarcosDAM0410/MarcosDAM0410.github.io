@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Permite utilizar tildes y caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Indica el autor de la página -->
+    <meta name="author" content="Marcos">
+
+    <!-- Palabras clave de la página -->
+    <meta name="keywords" content="Restaurante, Reseñas, Platos">
+
+    <!-- Descripción de la página -->
+    <meta name="description" content="Formulario de reseñas del Restaurante El Olivo">
+
+    <link rel="icon" href="../Restaurante/img/favicon.jpg" type="x-icon">
+
+    <!-- Título de la pestaña -->
+    <title>Reseñas del Restaurante</title>
+</head>
+
+<body>
+
+    <!-- Cabecera con el título del formulario -->
+    <header>
+        <h1>Reseña de un plato</h1>
+    </header>
+
+
+    <!-- Contenido principal de la página -->
+    <main>
+
+        <!-- Formulario para enviar una reseña -->
+        <form action="#" method="post">
+
+            <!-- Campo para introducir el nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Su nombre" required>
+
+            <br>
+            <br>
+
+            <!-- Lista desplegable para elegir el plato -->
+            <label for="plato">Seleccione un plato:</label>
+            <select id="plato" name="plato" required>
+
+                <!-- Opción inicial sin seleccionar -->
+                <option value="">Seleccione un plato</option>
+
+                <!-- Platos disponibles del restaurante -->
+                <option value="tortilla">Tortilla de Patatas</option>
+                <option value="salmorejo">Salmorejo Cordobés</option>
+                <option value="flamenquin">Flamenquín Cordobés</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <!-- Campo para escribir la reseña -->
+            <label for="resena">Escriba su reseña:</label>
+
+            <br>
+
+            <!-- Cuadro de texto para introducir la opinión -->
+            <textarea id="resena" name="resena" rows="6" cols="50" placeholder="Escriba aquí su reseña" required></textarea>
+
+            <br>
+            <br>
+
+            <!-- Botón para enviar la reseña -->
+            <input type="submit" value="Enviar reseña">
+
+            <!-- Botón para limpiar el formulario -->
+            <input type="reset" value="Limpiar datos">
+
+        </form>
+
+    </main>
+    <!-- Zona de navegación -->
+    <nav>
+        <a href="../Restaurante/Restaurante.html">Volver al Restaurante</a>
+    </nav>
+    <!-- Pie de página -->
+    <footer>
+        mmoralesvico55@gmail.com
+    </footer>
+
+</body>
+</html>
